@@ -7,6 +7,9 @@
     <customFonts key="customFonts">
         <mutableArray key="digital-7.ttf">
             <string>Digital-7</string>
+            <string>Digital-7</string>
+            <string>Digital-7</string>
+            <string>Digital-7</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -22,10 +25,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESTINATION TIME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJj-oG-KHX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="DESTINATION TIME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJj-oG-KHX">
                                 <rect key="frame" x="224" y="84" width="152" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Time Departed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eg4-ui-bFe">
+                                <rect key="frame" x="224" y="259" width="152" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ync-rA-wCT">
+                                <rect key="frame" x="244" y="336" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Mph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NnQ-Yn-sBo">
+                                <rect key="frame" x="282" y="377" width="37" height="16"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kys-3F-qNJ">
+                                <rect key="frame" x="280" y="223" width="40" height="16"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="17"/>
+                                <color key="textColor" red="0.68450337630000002" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUG-Nl-Tq2">
+                                <rect key="frame" x="280" y="300" width="40" height="16"/>
+                                <fontDescription key="fontDescription" name="Digital-7" family="Digital-7" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JAN 01 2000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9G3-Jw-nUV">
@@ -34,29 +67,42 @@
                                 <color key="textColor" red="0.78903317451477051" green="0.18061754107475281" blue="0.16475954651832581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Present Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdZ-fj-Jbz">
+                                <rect key="frame" x="249" y="182" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.20984494686126709" green="0.2098878026008606" blue="0.20984223484992981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="top" secondItem="FJj-oG-KHX" secondAttribute="bottom" constant="8" id="1jg-5e-9fe"/>
-                            <constraint firstAttribute="centerX" secondItem="FJj-oG-KHX" secondAttribute="centerX" id="2Ew-BK-hs1"/>
-                            <constraint firstItem="FJj-oG-KHX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Nu6-xV-S2S"/>
-                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="top" secondItem="FJj-oG-KHX" secondAttribute="bottom" constant="20" id="WBF-bN-sWf"/>
-                            <constraint firstItem="FJj-oG-KHX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="20" id="aDM-0I-z5D"/>
-                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="gFx-c8-thV"/>
-                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="pXF-F7-TKA"/>
-                            <constraint firstItem="FJj-oG-KHX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="tom-6k-ZlW"/>
-                            <constraint firstItem="FJj-oG-KHX" firstAttribute="centerX" secondItem="9G3-Jw-nUV" secondAttribute="centerX" id="vjD-KC-Jzd"/>
+                            <constraint firstItem="FJj-oG-KHX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="0Bq-So-6fA"/>
+                            <constraint firstItem="BdZ-fj-Jbz" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="0gv-bf-Lek"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="NnQ-Yn-sBo" secondAttribute="bottom" constant="207" id="1Hv-9S-lCf"/>
+                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="35W-Uc-cOV"/>
+                            <constraint firstItem="kys-3F-qNJ" firstAttribute="top" secondItem="BdZ-fj-Jbz" secondAttribute="bottom" constant="20" id="3LJ-29-bJR"/>
+                            <constraint firstItem="tUG-Nl-Tq2" firstAttribute="top" secondItem="eg4-ui-bFe" secondAttribute="bottom" constant="20" id="7Ji-YI-Zju"/>
+                            <constraint firstItem="FJj-oG-KHX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="9Mb-E1-FtV"/>
+                            <constraint firstItem="eg4-ui-bFe" firstAttribute="top" secondItem="kys-3F-qNJ" secondAttribute="bottom" constant="20" id="CeT-aa-ROu"/>
+                            <constraint firstItem="BdZ-fj-Jbz" firstAttribute="top" secondItem="9G3-Jw-nUV" secondAttribute="bottom" constant="20" id="HhN-Nf-qBR"/>
+                            <constraint firstItem="NnQ-Yn-sBo" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="LJF-g9-moz"/>
+                            <constraint firstItem="ync-rA-wCT" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="OvL-fg-xth"/>
+                            <constraint firstItem="ync-rA-wCT" firstAttribute="top" secondItem="tUG-Nl-Tq2" secondAttribute="bottom" constant="20" id="Ssd-QA-DKg"/>
+                            <constraint firstItem="eg4-ui-bFe" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VJQ-yB-WV6"/>
+                            <constraint firstItem="NnQ-Yn-sBo" firstAttribute="top" secondItem="tUG-Nl-Tq2" secondAttribute="bottom" constant="61" id="brg-dM-R56"/>
+                            <constraint firstItem="NnQ-Yn-sBo" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="cpa-Id-amr"/>
+                            <constraint firstItem="kys-3F-qNJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="d9d-rS-eIv"/>
+                            <constraint firstItem="9G3-Jw-nUV" firstAttribute="top" secondItem="FJj-oG-KHX" secondAttribute="bottom" constant="20" id="gVO-0S-1NF"/>
+                            <constraint firstItem="tUG-Nl-Tq2" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="pVL-1T-qMe"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="gFx-c8-thV"/>
-                                <exclude reference="2Ew-BK-hs1"/>
-                                <exclude reference="aDM-0I-z5D"/>
-                                <exclude reference="vjD-KC-Jzd"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="Atb-Fv-IUq"/>
+                    <connections>
+                        <outlet property="destinationTimeLabel" destination="FJj-oG-KHX" id="SKa-WM-gwi"/>
+                        <outlet property="lastTimeDepartedLabel" destination="eg4-ui-bFe" id="K6c-mM-WYG"/>
+                        <outlet property="presentTimeLabel" destination="BdZ-fj-Jbz" id="G9T-ga-LQx"/>
+                        <outlet property="speedLabel" destination="ync-rA-wCT" id="eka-Bo-xZd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

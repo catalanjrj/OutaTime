@@ -19,13 +19,13 @@ If my calculations are correct, when this baby hits 88 miles per hour... you're 
 #### Storyboard Tasks
 
 * [x] The time circuits view should be embedded in a navigation controller
-* [ ] All label groups should be centered horizontally and 20 points apart. The actual readout labels should also use the custom font "digital-7".
-	* [ ] Below the labels for the destination time, there should be a set of labels for "present time"
-		* [ ] Choose a lime green/yellow color for this label
-	* [ ] Below the present time labels, there should be a set for "last time departed"
-		* [ ] Choose an orange color for this label
-* [ ] Also centered horizontally and 20 pts below the time labels, there should be a "CURRENT SPEED" label group. The second label that displays the speed should read "0 MPH"
-	* [ ] The actual speed label should be red in color
+* [x] All label groups should be centered horizontally and 20 points apart. The actual readout labels should also use the custom font "digital-7".
+	* [x] Below the labels for the destination time, there should be a set of labels for "present time"
+		* [x] Choose a lime green/yellow color for this label
+	* [x] Below the present time labels, there should be a set for "last time departed"
+		* [x] Choose an orange color for this label
+* [x] Also centered horizontally and 20 pts below the time labels, there should be a "CURRENT SPEED" label group. The second label that displays the speed should read "0 MPH"
+	* [x] The actual speed label should be red in color
 * [ ] All relevant labels need to be wired to their associated properties
 
 * [ ] Below all the labels, there should be 2 buttons, also centered horizontally and spaced 20 pts apart from both the other labels and each other
