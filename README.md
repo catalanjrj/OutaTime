@@ -32,11 +32,11 @@ If my calculations are correct, when this baby hits 88 miles per hour... you're 
 	* [x] These buttons should be named "SET DESTINATION TIME" and "TRAVEL BACK"
 	* [x] The buttons should both be teal in color
 	* [ ] These buttons should be wired to their appropriate IBActions or segues
-		* [ ] The segue for SET DESTINATION TIME should have an identifier of "ShowDestinationDatePickerSegue"
+		* [x] The segue for SET DESTINATION TIME should have an identifier of "ShowDestinationDatePickerSegue"
 
-* [ ] The the date picker view contains a date picker. This UI object should be centered both horizontally and vertically in the view. Its leading and trailing space should also hug the left and right edges of its superview.
-* [ ] The the date picker view should be have a custom class of "DatePickerViewController"
-* [ ] The date picker should be wired up to its associated property
+* [x] The the date picker view contains a date picker. This UI object should be centered both horizontally and vertically in the view. Its leading and trailing space should also hug the left and right edges of its superview.
+* [x] The the date picker view should be have a custom class of "DatePickerViewController"
+* [x] The date picker should be wired up to its associated property
 
 #### Code Tasks
 
