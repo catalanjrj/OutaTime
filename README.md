@@ -26,11 +26,11 @@ If my calculations are correct, when this baby hits 88 miles per hour... you're 
 		* [x] Choose an orange color for this label
 * [x] Also centered horizontally and 20 pts below the time labels, there should be a "CURRENT SPEED" label group. The second label that displays the speed should read "0 MPH"
 	* [x] The actual speed label should be red in color
-* [ ] All relevant labels need to be wired to their associated properties
+* [x] All relevant labels need to be wired to their associated properties
 
-* [ ] Below all the labels, there should be 2 buttons, also centered horizontally and spaced 20 pts apart from both the other labels and each other
-	* [ ] These buttons should be named "SET DESTINATION TIME" and "TRAVEL BACK"
-	* [ ] The buttons should both be teal in color
+* [x] Below all the labels, there should be 2 buttons, also centered horizontally and spaced 20 pts apart from both the other labels and each other
+	* [x] These buttons should be named "SET DESTINATION TIME" and "TRAVEL BACK"
+	* [x] The buttons should both be teal in color
 	* [ ] These buttons should be wired to their appropriate IBActions or segues
 		* [ ] The segue for SET DESTINATION TIME should have an identifier of "ShowDestinationDatePickerSegue"
 

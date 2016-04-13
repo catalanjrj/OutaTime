@@ -31,6 +31,7 @@
 
 // This is an IBAction. It is a method that will fire when the element it's connected to fires an event of your choosing.
 - (IBAction)travelBack:(UIButton *)sender;
+- (IBAction)setDestinationTime:(UIButton *)sender;
 
 // These are private custom methods
 - (void)startTimer;
@@ -122,6 +123,9 @@
     //    there a method defined that will allow us to get the timer started?
     //
 
+}
+
+- (IBAction)setDestinationTime:(UIButton *)sender {
 }
 
 #pragma mark - Private
