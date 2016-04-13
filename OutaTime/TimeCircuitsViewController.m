@@ -114,7 +114,7 @@
     //
     // 12. The destinationTimeLabel needs to be set to the destination date using our date formatter object
     //
-    self.destinationTimeLabel.text = [dateFormatter stringFromDate:destinationDate];
+    self.destinationTimeLabel.text = [dateFormatter stringFromDate:destinationDate];1
 }
 
 #pragma mark - Action Handlers
