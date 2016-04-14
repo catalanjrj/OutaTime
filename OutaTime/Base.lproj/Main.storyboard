@@ -125,10 +125,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Atb-Fv-IUq"/>
                     <connections>
-                        <outlet property="destinationTimeLabel" destination="FJj-oG-KHX" id="SKa-WM-gwi"/>
-                        <outlet property="lastTimeDepartedLabel" destination="eg4-ui-bFe" id="K6c-mM-WYG"/>
-                        <outlet property="presentTimeLabel" destination="BdZ-fj-Jbz" id="G9T-ga-LQx"/>
-                        <outlet property="speedLabel" destination="ync-rA-wCT" id="eka-Bo-xZd"/>
+                        <outlet property="destinationTimeLabel" destination="9G3-Jw-nUV" id="DVK-Iq-heg"/>
+                        <outlet property="lastTimeDepartedLabel" destination="tUG-Nl-Tq2" id="7b6-p8-j6x"/>
+                        <outlet property="presentTimeLabel" destination="kys-3F-qNJ" id="iDc-Xj-ExQ"/>
+                        <outlet property="speedLabel" destination="NnQ-Yn-sBo" id="bgG-2W-1ye"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
