@@ -157,7 +157,8 @@
                                            selector:@selector (updateSpeed)
                                             userInfo:nil
                                             repeats:YES];
-        
+    }
+}
 - (void)stopTimer
 {
     //
@@ -165,7 +166,8 @@
     //    Once it's stopped, we want to nil out the object so we can create a new one when the user asks to travel back
     //    again.
     //
-   stopt
+    [speedTimer invalidate];
+       speedTimer = nil;
     
 }
 
@@ -174,15 +176,16 @@
     //
     // 17. We need to check if the current speed variable is set to 88 yet.
     //
-    if (88)
+    if (currentSpeed != 88)
     {
         //
         // 18. If it's not yet set to 88, we want to increment the current speed variable by 1.
         //
-        
+        currentSpeed = currentSpeed+ 0.1;
         //
         // 19. Here we want to update the speed label to reflect the current speed.
         //
+        self.speedLabel.text = [NSString stringWithFormat:@"%ld MPH", currentSpeed];
     }
     else
     {
