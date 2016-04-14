@@ -125,10 +125,13 @@
     // 13. This is where we will start counting the speedometer up to 88 MPH. We need to use the timer object to do that. Is
     //    there a method defined that will allow us to get the timer started?
     //
-
+    
+    self.startTimer;
 }
 
 - (IBAction)setDestinationTime:(UIButton *)sender {
+
+    
 }
 
 #pragma mark - Private
@@ -141,7 +144,7 @@
     //
     //    NOTE: !NO below is just a placeholder.
     //
-    if (!NO)
+    if (!speedTimer)
     {
         //
         // 15. Below is an example of a timer being instantiated with a particular interval and firing a particular
@@ -149,15 +152,12 @@
         //    will need to fire our custom method to update the speed label.
         //
         
-//        NSTimer *aTimer = [NSTimer scheduledTimerWithTimeInterval:1.0
-//                                                           target:self
-//                                                         selector:@selector(updateSpeed)
-//                                                         userInfo:nil
-//                                                          repeats:YES];
+        speedTimer = [NSTimer timerWithTimeInterval: 0.1
+                                             target:self
+                                           selector:@selector (updateSpeed)
+                                            userInfo:nil
+                                            repeats:YES];
         
-    }
-}
-
 - (void)stopTimer
 {
     //
@@ -165,7 +165,7 @@
     //    Once it's stopped, we want to nil out the object so we can create a new one when the user asks to travel back
     //    again.
     //
-
+   stopt
     
 }
 

@@ -74,8 +74,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-NM-QBn">
-                                <rect key="frame" x="255" y="463" width="90" height="30"/>
-                                <state key="normal" title="TRAVE BACK">
+                                <rect key="frame" x="251" y="463" width="98" height="30"/>
+                                <state key="normal" title="TRAVEL BACK">
                                     <color key="titleColor" red="0.11764705882352941" green="0.51764705882352946" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
