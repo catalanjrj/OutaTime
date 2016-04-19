@@ -192,20 +192,20 @@
         //
         // 20. If the speed variable is at least 88, we want to stop the timer here.
         //
-
-        //
+        if(currentSpeed >= 88){[speedTimer invalidate];}
+        
         // 21. Then we need to update the lastTimeDepartedLabel with the value of the presentTimeLabel.
         //
-
-        //
+        self.lastTimeDepartedLabel = self.presentTimeLabel;
         // 22. The presentTimeLabel needs to take the value of the destinationTimeLabel here.
         //
-        
+        self.presentTimeLabel = self.destinationTimeLabel;
         //
         // 23. Lastly, we need to reset the current speed label to 0 here.
         //
+        currentSpeed = 0;
         
-    }
+            }
 }
 
 @end

@@ -61,15 +61,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-NM-QBn">
-                                <rect key="frame" x="251" y="463" width="98" height="30"/>
-                                <state key="normal" title="TRAVEL BACK">
-                                    <color key="titleColor" red="0.11764705882352941" green="0.51764705882352946" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="travelBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nkt-fT-SNn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzT-uv-s5V">
                                 <rect key="frame" x="217" y="413" width="167" height="30"/>
                                 <accessibility key="accessibilityConfiguration" identifier="ShowDestinationDatePickerSegue"/>
@@ -77,6 +68,7 @@
                                     <color key="titleColor" red="0.0078431372549019607" green="0.51764705882352935" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="setDestinationTime:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aPj-Z8-tJe"/>
                                     <segue destination="bBv-ya-q7Q" kind="show" identifier="ShowDestinationDatePickerSegue" id="mjn-7e-V5E"/>
                                 </connections>
                             </button>
@@ -92,6 +84,15 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4c-NM-QBn">
+                                <rect key="frame" x="251" y="463" width="98" height="30"/>
+                                <state key="normal" title="TRAVEL BACK">
+                                    <color key="titleColor" red="0.11764705882352941" green="0.51764705882352946" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="travelBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aAZ-IF-jYe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20984494686126709" green="0.2098878026008606" blue="0.20984223484992981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <accessibility key="accessibilityConfiguration" identifier="ShowDestinationDatePickerSegue">
